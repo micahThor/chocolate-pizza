@@ -77,7 +77,7 @@ main #paragraphs p {
 
 main #checklist {
   position: relative;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 main #checklist img {
@@ -92,11 +92,19 @@ main #leftList {
   color:grey;
 }
 
-main #rightList{
+main #rightList {
   position: absolute;
   margin-left: 50%;
   font-family: "Comic Sans MS", cursive, sans-serif;
   color:grey;
+}
+
+main #leftList li{  
+  margin-top: 10%;
+}
+
+main #rightList li{  
+  margin-top: 5%;
 }
 
 .checking {
@@ -107,13 +115,6 @@ main #rightList{
   text-decoration:line-through;
 }
 
-main #leftList li{  
-  margin-top: 20%;
-}
-
-main #rightList li{  
-  margin-top: 10%;
-}
 
 footer {
   margin: 24% 20% 0 20%;
