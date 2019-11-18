@@ -25,6 +25,7 @@ header h1 {
 }
 
 header p {
+  margin-top: 1.5%;
   display: block;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 16px;
@@ -117,7 +118,7 @@ main #rightList li{
 
 
 footer {
-  margin: 24% 20% 0 20%;
+  margin: 25% 20% 0 20%;
 }
 
 #bottomHr {
@@ -157,6 +158,10 @@ footer {
   color:white;
   float: right;
   padding:15px 25px;
+}
+
+#footer {
+  margin-top: 5%;
 }
 
 footer p {
