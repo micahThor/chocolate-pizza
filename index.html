@@ -14,13 +14,10 @@
 </head>
 
 <body>
+
   <header>
-    <img src="img/small-logo.png" />
-    <div id="logo">
-      <h1>Delicious</h1>
-      <p>THE BEST FOOD BLOG ON THE WEB</p>
-    </div>
-    <div id="small-logo">
+    <img id="icon-upper-left" src="img/small-logo.png" />
+    <div id="icon-top-right">
       <img src="img/fb-icon.png" />
       <img src="img/twit-icon.png" />
       <img src="img/gp-icon.png" />
@@ -30,19 +27,18 @@
       <img src="img/rss-icon.png" />
       <img src="img/mail-icon.png" />
     </div>
-    <hr>
+    <h1>Delicious</h1>
+    <p>THE BEST FOOD BLOG ON THE WEB</p>
   </header>
+
+  <hr id="topHr">
 
   <main>
     <h2>Chocolate Pizza</h2>
-    <div id="print">
-      <p id="h2P">POSTED ON 15 DEC 2013 / DESERTS</p>
-      <img src="img/print-icon.png">
-    </div>
-    <div id="chocoPic">
-      <img src="img/choco-pizza.png">
-    </div>
-    <div id="paragraph">
+    <h3>POSTED ON 15 DEC 2013 / DESERTS</h3>
+    <span><img src="img/print-icon.png">PRINT</span>
+    <img id="pizzaImage" src="img/choco-pizza.png">
+    <div id="paragraphs">
       <p>
         For the fig swirl, melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
         of
@@ -65,7 +61,7 @@
       </p>
     </div>
     <div id="checklist">
-      <img src="img/list-bg.png">
+      <img src="/img/list-bg.png">
       <ul id="leftList">
         <li><input type="checkbox">1 1/2 cups milk</li>
         <li><input type="checkbox">1/2 cup mascarpone</li>
@@ -84,22 +80,22 @@
         <li><input type="checkbox">1 cup honey roatsed pecans, roughly chopped</li>
       </ul>
     </div>
-    <hr>
-
-    <div id="bio">
-      <img src="img/van-pic.png">
-      <h3>Vanessa Stevenson</h3></br>
-      <p>Food enthusiast, photography fan. Add a pinch of raw foodism and thats pretty much who I am.</p>
-      <button>SHARE RECEIPE</button>
-    </div>
-
   </main>
 
   <footer>
-    <hr class="footerHr">
-    <img class="footerHr" src="img/small-logo.png">
-    <p>Delicious &#9400; 2013 &#183; All Rights Reserved.</p>
-    <p>Proudly published with Ghost.</p>
+    <hr id="bottomHr">
+    <div id="bio">
+      <button>SHARE RECEIPE</button>
+      <img id="bioImage" src="img/van-pic.png">
+      <h3>Vanessa Stevenson</h3></br>
+      <p>Food enthusiast, photography fan. Add a pinch of raw foodism and thats pretty much who I am.</p>
+    </div>
+    <div id="footer">
+      <hr>
+      <img src="img/small-logo.png">
+      <p>Delicious &#9400; 2013 &#183; All Rights Reserved.</p>
+      <p>Proudly published with Ghost.</p>
+    </div>
   </footer>
 </body>
 
